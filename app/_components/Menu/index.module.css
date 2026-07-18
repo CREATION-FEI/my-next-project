@@ -32,4 +32,9 @@
     border: none;
     cursor: pointer;
   }
+  .close {
+    position: absolute;
+    top: 24px;
+    right: 16px;
+  }
 }
