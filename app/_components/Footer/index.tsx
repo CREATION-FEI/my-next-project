@@ -1,5 +1,5 @@
-import Image from "next/image";
-import styles from "./index.module.css";
+import Image from 'next/image';
+import styles from './index.module.css';
 
 type Props = {
   date: string;
@@ -14,7 +14,7 @@ export default function Footer() {
             <a href="/news">ニュース</a>
           </li>
           <li className={styles.item}>
-            <a href="/member">メンバー</a>
+            <a href="/members">メンバー</a>
           </li>
           <li className={styles.item}>
             <a href="/contact">お問い合わせ</a>
