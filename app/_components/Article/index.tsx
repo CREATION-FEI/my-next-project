@@ -23,13 +23,13 @@ export default function Article({ data }: Props) {
         </Link>
         <Date date={data.publishedAt ?? data.createdAt} />
       </div>
-      {data.thumbnail && (
+      {data.thumbnail_ && (
         <Image
-          src={data.thumbnail.url}
+          src={data.thumbnail_.url}
           alt=""
           className={styles.thumbnail}
-          width={data.thumbnail.width}
-          height={data.thumbnail.height}
+          width={data.thumbnail_.width}
+          height={data.thumbnail_.height}
         />
       )}
       <div
